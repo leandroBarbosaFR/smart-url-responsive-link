@@ -1,6 +1,6 @@
 {
   "name": "smart-url-responsive-link",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically shorten long URLs for mobile views and improve readability",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
