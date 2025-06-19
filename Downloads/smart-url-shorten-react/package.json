@@ -1,6 +1,6 @@
 {
   "name": "smart-url-responsive-link",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically shorten long URLs for mobile views and improve readability",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,17 +21,19 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "react": "^18.0.0"
+    "lucide-react": "^0.518.0",
+    "react": ">=17.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/leobarbosamrs/smart-url-responsive-link.git"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/react": "^18.0.0"
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
   },
   "peerDependencies": {
-    "react": ">=17.0.0"
+    "react": ">=17.0.0",
+    "lucide-react": "^0.293.0"
   }
 }
