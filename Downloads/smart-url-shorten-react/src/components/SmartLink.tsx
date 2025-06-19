@@ -44,7 +44,7 @@ export const SmartLink: React.FC<SmartLinkProps> = ({
         target="_blank"
         rel="noopener noreferrer"
         title={tooltip ? url : undefined}
-        className="text-blue-600 hover:underline break-all"
+        className="text-blue-600 hover:underline truncate whitespace-nowrap overflow-hidden max-w-full inline-block"
       >
         {displayText}
         {showIcon && <span className="ml-1">↗</span>}
